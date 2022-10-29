@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy;
 
 /**
  * 策略模式
