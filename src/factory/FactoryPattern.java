@@ -1,5 +1,8 @@
 package factory;
 
+import factory.factory.Shape;
+import factory.factory.ShapeFactory;
+
 /**
  * @author Song, Wei
  * Date: 2022/7/1 19:59
