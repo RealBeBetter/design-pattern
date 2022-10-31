@@ -1,4 +1,4 @@
-package chainofresponsility.chain;
+package responsibilitychain.responsibility;
 
 /**
  * 用责任链表示日志级别的日志模型

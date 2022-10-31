@@ -1,8 +1,8 @@
-package chainofresponsility;
+package responsibilitychain;
 
-import chainofresponsility.chain.AbstractLogger;
-import chainofresponsility.chain.ConsoleLogger;
-import chainofresponsility.chain.ErrorLogger;
+import responsibilitychain.responsibility.AbstractLogger;
+import responsibilitychain.responsibility.ConsoleLogger;
+import responsibilitychain.responsibility.ErrorLogger;
 
 /**
  * @author wei.song

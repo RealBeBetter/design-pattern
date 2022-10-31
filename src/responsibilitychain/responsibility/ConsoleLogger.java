@@ -1,4 +1,4 @@
-package chainofresponsility.chain;
+package responsibilitychain.responsibility;
 
 /**
  * @author wei.song
