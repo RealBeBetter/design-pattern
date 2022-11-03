@@ -1,5 +1,10 @@
 package builder.builder;
 
+import builder.builder.item.ChickenBurger;
+import builder.builder.item.Coke;
+import builder.builder.item.Pepsi;
+import builder.builder.item.VegBurger;
+
 /**
  * 给之前提供的建造项提供可选建造方案
  *

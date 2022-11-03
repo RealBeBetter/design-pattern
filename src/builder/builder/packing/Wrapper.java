@@ -1,4 +1,6 @@
-package builder.builder;
+package builder.builder.packing;
+
+import builder.builder.design.Packing;
 
 /**
  * @author wei.song

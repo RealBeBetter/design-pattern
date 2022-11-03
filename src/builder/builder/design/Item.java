@@ -1,4 +1,4 @@
-package builder.builder;
+package builder.builder.design;
 
 /**
  * @author wei.song

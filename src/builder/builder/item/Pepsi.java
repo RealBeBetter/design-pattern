@@ -1,4 +1,6 @@
-package builder.builder;
+package builder.builder.item;
+
+import builder.builder.design.ColdDrink;
 
 /**
  * @author wei.song

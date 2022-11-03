@@ -1,5 +1,7 @@
 package builder.builder;
 
+import builder.builder.design.Item;
+
 import java.util.ArrayList;
 import java.util.List;
 
