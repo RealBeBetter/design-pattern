@@ -1,6 +1,7 @@
 package builder.builder.design;
 
 import builder.builder.packing.Bottle;
+import builder.builder.packing.Packing;
 
 /**
  * @author wei.song

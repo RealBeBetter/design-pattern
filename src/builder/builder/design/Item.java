@@ -1,5 +1,7 @@
 package builder.builder.design;
 
+import builder.builder.packing.Packing;
+
 /**
  * @author wei.song
  * @since 2022-10-29 12:24

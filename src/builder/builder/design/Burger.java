@@ -1,5 +1,6 @@
 package builder.builder.design;
 
+import builder.builder.packing.Packing;
 import builder.builder.packing.Wrapper;
 
 /**
