@@ -11,13 +11,13 @@ public interface AdvancedMediaPlayer {
      *
      * @param fileName 文件名称
      */
-    public void playVlc(String fileName);
+    void playVlc(String fileName);
 
     /**
      * 播放Mp4文件
      *
      * @param fileName 文件名称
      */
-    public void playMp4(String fileName);
+    void playMp4(String fileName);
 
 }
