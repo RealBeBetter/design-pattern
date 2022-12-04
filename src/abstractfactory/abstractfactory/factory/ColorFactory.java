@@ -1,10 +1,10 @@
-package abstractfactory.factory;
+package abstractfactory.abstractfactory.factory;
 
-import abstractfactory.color.Blue;
-import abstractfactory.color.Color;
-import abstractfactory.color.Green;
-import abstractfactory.color.Red;
-import abstractfactory.shape.Shape;
+import abstractfactory.abstractfactory.color.Blue;
+import abstractfactory.abstractfactory.color.Color;
+import abstractfactory.abstractfactory.color.Green;
+import abstractfactory.abstractfactory.color.Red;
+import abstractfactory.abstractfactory.shape.Shape;
 
 /**
  * @author wei.song

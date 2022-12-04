@@ -1,9 +1,9 @@
 package abstractfactory;
 
-import abstractfactory.color.Color;
-import abstractfactory.factory.AbstractFactory;
-import abstractfactory.factory.FactoryProducer;
-import abstractfactory.shape.Shape;
+import abstractfactory.abstractfactory.color.Color;
+import abstractfactory.abstractfactory.factory.AbstractFactory;
+import abstractfactory.abstractfactory.factory.FactoryProducer;
+import abstractfactory.abstractfactory.shape.Shape;
 
 /**
  * @author wei.song

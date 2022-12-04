@@ -1,7 +1,7 @@
-package abstractfactory.factory;
+package abstractfactory.abstractfactory.factory;
 
-import abstractfactory.color.Color;
-import abstractfactory.shape.Shape;
+import abstractfactory.abstractfactory.color.Color;
+import abstractfactory.abstractfactory.shape.Shape;
 
 /**
  * @author wei.song

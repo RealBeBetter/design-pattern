@@ -1,4 +1,4 @@
-package abstractfactory.color;
+package abstractfactory.abstractfactory.color;
 
 /**
  * @author wei.song

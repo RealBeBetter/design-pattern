@@ -1,10 +1,10 @@
-package abstractfactory.factory;
+package abstractfactory.abstractfactory.factory;
 
-import abstractfactory.color.Color;
-import abstractfactory.shape.Circle;
-import abstractfactory.shape.Rectangle;
-import abstractfactory.shape.Shape;
-import abstractfactory.shape.Square;
+import abstractfactory.abstractfactory.color.Color;
+import abstractfactory.abstractfactory.shape.Circle;
+import abstractfactory.abstractfactory.shape.Rectangle;
+import abstractfactory.abstractfactory.shape.Shape;
+import abstractfactory.abstractfactory.shape.Square;
 
 /**
  * @author wei.song

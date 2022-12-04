@@ -1,4 +1,4 @@
-package abstractfactory.shape;
+package abstractfactory.abstractfactory.shape;
 
 /**
  * @author wei.song
