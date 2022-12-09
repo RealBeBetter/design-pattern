@@ -1,5 +1,11 @@
 package abstractfactory;
 
+import abstractfactory.clothesfactory.clothes.Pants;
+import abstractfactory.clothesfactory.clothes.Shirt;
+import abstractfactory.clothesfactory.factory.BusinessClothesFactory;
+import abstractfactory.clothesfactory.factory.ClothesFactory;
+import abstractfactory.clothesfactory.factory.FashionClothesFactory;
+
 /**
  * 为了参加一些聚会，肯定会有多套衣服。比如说有商务装（成套，一系列具体产品）、时尚装（成套，一系列具体产品），
  * 甚至对于一个家庭来说，可能有商务女装、商务男装、时尚女装、时尚男装，这些也都是成套的，即一系列具体产品。
@@ -15,7 +21,27 @@ package abstractfactory;
 public class ClothesFactoryPattern {
 
     public static void main(String[] args) {
+        // 生成商务装工厂
+        ClothesFactory businessClothesFactory = new BusinessClothesFactory();
 
+        // 从商务装工厂中生成上衣和裤子
+        Shirt businessShirt = businessClothesFactory.createShirt();
+        Pants businessPants = businessClothesFactory.createPants();
+
+        // 显示商务装
+        businessShirt.display();
+        businessPants.display();
+
+        // 生成时尚装工厂
+        ClothesFactory fashionClothesFactory = new FashionClothesFactory();
+
+        // 从时尚装工厂中生成上衣和裤子
+        Shirt fashionShirt = fashionClothesFactory.createShirt();
+        Pants fashionPants = fashionClothesFactory.createPants();
+
+        // 显示时尚装
+        fashionShirt.display();
+        fashionPants.display();
     }
 
 }
