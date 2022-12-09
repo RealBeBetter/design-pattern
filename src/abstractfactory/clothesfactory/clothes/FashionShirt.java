@@ -5,6 +5,7 @@ package abstractfactory.clothesfactory.clothes;
  * @since 2022/12/9 22:13
  */
 public class FashionShirt extends Shirt {
+    @Override
     public void display() {
         System.out.println("This is a fashion shirt.");
     }
