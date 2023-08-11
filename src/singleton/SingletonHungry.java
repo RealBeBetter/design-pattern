@@ -10,12 +10,12 @@ package singleton;
  */
 public class SingletonHungry {
 
-    private static SingletonHungry instance = new SingletonHungry();
+    private static final SingletonHungry INSTANCE = new SingletonHungry();
 
     private SingletonHungry() {
     }
 
     public static SingletonHungry getInstance() {
-        return instance;
+        return INSTANCE;
     }
 }
