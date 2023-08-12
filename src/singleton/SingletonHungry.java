@@ -18,4 +18,5 @@ public class SingletonHungry {
     public static SingletonHungry getInstance() {
         return INSTANCE;
     }
+
 }
