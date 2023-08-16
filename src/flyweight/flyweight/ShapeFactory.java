@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class ShapeFactory {
 
-    public static final Map<String, Shape> circleMap = new HashMap<>(8);
+    public static final Map<String, Shape> CIRCLE_MAP = new HashMap<>(8);
 
     /**
      * 获取 Circle
@@ -21,13 +21,13 @@ public class ShapeFactory {
      * @return Shape
      */
     public static Shape getCircle(String color) {
-        if (color == null || color.length() == 0) {
+        if (color == null || color.isEmpty()) {
             return null;
         }
-        Circle circle = (Circle) circleMap.get(color);
+        Circle circle = (Circle) CIRCLE_MAP.get(color);
         if (circle == null) {
             circle = new Circle(color);
-            circleMap.put(color, circle);
+            CIRCLE_MAP.put(color, circle);
             System.out.println("Creating circle of color : " + color);
         }
         return circle;
